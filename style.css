@@ -43,3 +43,27 @@ body {
     padding: 0;
     margin: 0;
 }
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/*MAIN*/
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.main-wrapper {
+    background: url(assets/main-bg.png) center no-repeat;
+    background-size: 105%;
+    padding-bottom: 3em;
+}
+.main-title {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
