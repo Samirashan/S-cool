@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/beasigne');
+@import url('https://fonts.cdnfonts.com/css/alexandria-4');
+@import url('https://fonts.cdnfonts.com/css/belanosima');
+*,
+*::before
+*::after {
+    box-sizing: border-box;         /* Regular */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+}
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
+
+::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GENERAL */
+
+body {
+    background-color: #62D0FF;
+    font-family: 'Alexandria', sans-serif;
+    padding: 0;
+    margin: 0;
+}
