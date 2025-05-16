@@ -67,3 +67,96 @@ body {
     text-transform: uppercase;
 
 }
+.underline {
+position: relative;
+}
+.underline::after {
+    position: absolute;
+    content: '';
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    bottom: -25px;
+    left: 0;
+    background: url(assets/underline.png) bottom no-repeat;
+    transition: .2s all;
+
+}
+.underline:hover::after {
+    transform: translate(0px, -5px);
+}
+/*HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+.logo {
+    font-family:'beasigne';
+    text-transform: uppercase;
+    color: #0B19CD;
+    cursor: pointer;
+}
+.link {
+   
+    margin: 0em 1em;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    
+}
+.link::after {
+position: absolute;
+content: '';
+background-color: black;
+height: 3px;
+width: 0%;
+bottom: -5px;
+left: 0;
+transition: .2s all;
+
+}
+.link:hover::after {
+width: 100%;
+}
+/*Start section*/
+
+.start-section {
+    background-color: #62D0FF;
+    height: 150vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2em;
+}
+.start-text {
+    text-align: center;
+}
+.start-title {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.start-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.s-item {
+
+    background: url(assets/math-img.png) center center no-repeat #ae7fe7;
+    background-size: 70%;
+    height: 300px;
+    width: 20%;
+    border-radius: 14px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.s-subtitle {
+    margin-top: 0.3em;
+}
