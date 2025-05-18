@@ -238,3 +238,121 @@ border-radius: 14px 14px 0px 0px;
     background: url(assets/rocket-img.png) center center no-repeat #ae7fe7;
     background-size: 30%;
 }
+.footer {
+    background-color: #ae7fe7;
+    height: 50vh;
+    margin: 2em 0em;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer-logo {
+    color: #E6D4FF;
+}
+.f-line {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 72%, rgba(0,0,0,0) 100%);
+
+    height: 2px;
+    width: 70%;
+}
+.socials {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.socials-title {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: white;
+}
+.s-link {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    margin: 3px;
+}
+.sl-insta {
+    background: url(assets/insta-icon.svg) center no-repeat;
+    background-size: 100%;
+}
+.sl-github {
+    background: url(assets/github-icon.svg) center no-repeat;
+    background-size: 100%;
+}
+.sl-wa {
+    background: url(assets/wa-icon.svg) center no-repeat;
+    background-size: 100%;
+}
+.sl-discord {
+    background: url(assets/discord-icon.svg) center no-repeat;
+    background-size: 100%;
+}
+.footer-inner {
+    display: flex;
+   
+    justify-content: space-around;
+    width: 70%;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-title {
+font-size: 16px;
+font-weight: 800;
+margin-bottom: 10px;
+color: #E6D4FF;
+}
+.footer-link {
+    font-size: 14px;
+    color: black;
+    color: white;
+}
+.author-link {
+    color: #E6D4FF;
+}
+/*Library*/
+.library {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.library-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.library-title {
+    text-transform: uppercase;
+    font-size: 4.5em;
+   
+}
+.button {
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: black;
+    padding: 1em 4em;
+    border: 3px solid black;
+    font-size: 1.5em;
+    transition: .2s all;
+}
+.button:hover {
+    background-color: #ae7fe7;
+    border-color: #ae7fe7;
+    color: white;
+    transform: translate(0%, -5%);
+}
+.lib-img {
+    background: url(assets/library-bg\ \(1\).png) right no-repeat;
+    background-size: 95%;
+    height: 100%;
+    width: 50em;
+
+}
